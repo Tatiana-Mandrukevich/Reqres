@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 @Data
 @Builder
-public class UsersList {
+public class ResourcesList {
     @Expose
-    ArrayList<UserForUsersList> data;
+    ArrayList<Resource> data;
 }
