@@ -5,21 +5,20 @@ import com.google.gson.annotations.SerializedName;
 import lombok.Data;
 
 @Data
-public class UserForUsersList {
+public class Resource {
     @Expose
     int id;
 
     @Expose
-    String email;
-
-    @SerializedName("first_name")
-    @Expose
-    String firstName;
-
-    @SerializedName("last_name")
-    @Expose
-    String lastName;
+    String name;
 
     @Expose
-    String avatar;
+    int year;
+
+    @Expose
+    String color;
+
+    @SerializedName("pantone_value")
+    @Expose
+    String pantoneValue;
 }
